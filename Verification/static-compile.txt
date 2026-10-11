@@ -1,0 +1,21 @@
+Static C# verification — 2026-10-10
+
+PASS 1
+Roslyn csc.dll shipped with Unity 2022.3.55f1
+/target:library /langversion:7.3 /nostdlib+ /define:UNITY_EDITOR
+Sources: all 18 C# files in Assets (gameplay, setup/test, tutorial)
+References: UnityEngine modules, UnityEditor modules, UnityEngine.UI, .NET Framework 4.8
+Exit code: 0
+Final compiler diagnostics: none
+
+PASS 2
+Same compiler
+/target:library /langversion:7 /nostdlib+
+Sources: Assets/Scripts/**/*.cs (runtime game)
+References: UnityEngine modules, UnityEngine.UI, .NET Framework 4.8
+No UNITY_EDITOR define, no UnityEditor references
+Exit code: 0
+Final compiler diagnostics: none
+
+Limitations: not a Unity 2018.4 compile, not an asset import, not a Play Mode test, not a Windows build.
+The Unity Editor was not launched against this project. ProjectVersion/manifest/render settings remain unchanged.

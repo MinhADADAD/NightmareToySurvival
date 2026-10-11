@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-10",
+  "source": "C:\\Users\\Quang Minh\\Downloads\\LapTrinhGameCoBan-main (2)\\LapTrinhGameCoBan-main\\Asset Bai Tap\\Game3D_Survivor Shooter Asset",
+  "source_file_count": 396,
+  "modified_from_original": [
+    "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+    "Assets/Scripts/Enemy/EnemyAttack.cs",
+    "Assets/Scripts/Enemy/EnemyHealth.cs",
+    "Assets/Scripts/Enemy/EnemyMovement.cs",
+    "Assets/Scripts/Managers/EnemyManager.cs",
+    "Assets/Scripts/Managers/GameOverManager.cs",
+    "Assets/Scripts/Managers/ScoreManager.cs",
+    "Assets/Scripts/Player/PlayerHealth.cs",
+    "Assets/Scripts/Player/PlayerMovement.cs",
+    "Assets/Scripts/Player/PlayerShooting.cs"
+  ],
+  "moved_out_of_original_asset_paths": [
+    "Assets/Profiles/SurvivalShooterProfile.asset",
+    "Assets/Profiles/SurvivalShooterProfile.asset.meta"
+  ],
+  "added_files": [
+    ".gitignore",
+    "CHANGELOG_VI.md",
+    "README_VI.md",
+    "Assets/Editor.meta",
+    "Verification/CHECKLIST_VI.md",
+    "Verification/STATUS.md",
+    "Reference/LegacyAssets/SurvivalShooterProfile.asset",
+    "Reference/LegacyAssets/SurvivalShooterProfile.asset.meta",
+    "Assets/Editor/NightmareSetup.cs",
+    "Assets/Editor/NightmareSetup.cs.meta",
+    "Assets/Editor/NightmareSmokeTest.cs",
+    "Assets/Editor/NightmareSmokeTest.cs.meta",
+    "Assets/Scripts/UI.meta",
+    "Assets/Scripts/Managers/ArenaNavigation.cs",
+    "Assets/Scripts/Managers/ArenaNavigation.cs.meta",
+    "Assets/Scripts/Managers/AudioManager.cs",
+    "Assets/Scripts/Managers/AudioManager.cs.meta",
+    "Assets/Scripts/Managers/GameManager.cs",
+    "Assets/Scripts/Managers/GameManager.cs.meta",
+    "Assets/Scripts/Player/CameraFollow.cs",
+    "Assets/Scripts/Player/CameraFollow.cs.meta",
+    "Assets/Scripts/UI/GameUI.cs",
+    "Assets/Scripts/UI/GameUI.cs.meta"
+  ],
+  "unchanged_critical_files": {
+    "ProjectSettings/ProjectVersion.txt": true,
+    "Packages/manifest.json": true,
+    "ProjectSettings/GraphicsSettings.asset": true
+  },
+  "unresolved_external_asset_guids": [],
+  "literal_asset_paths_exist": {
+    "Assets/Prefabs/Environment.prefab": true,
+    "Assets/Audio/Music/Background Music.mp3": true,
+    "Assets/Prefabs/Lights.prefab": true,
+    "Assets/Prefabs/GunParticles.prefab": true,
+    "Assets/Prefabs/HitParticles.prefab": true,
+    "Assets/Materials/LineRenderMaterial.mat": true
+  },
+  "checks_performed": [
+    "C# Editor-inclusive static compile: PASS (Unity 2022.3 reference assemblies)",
+    "C# runtime-only static compile, language version 7: PASS"
+  ],
+  "unity_2018_import_performed": false,
+  "scene_generation_performed": false,
+  "playmode_performed": false,
+  "windows_build_performed": false
+}
